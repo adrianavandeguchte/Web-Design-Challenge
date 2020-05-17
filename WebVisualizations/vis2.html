@@ -1,86 +1,90 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
-  <meta charset="UTF-8">
-  <title>Home</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <!-- <link rel="custom_styles" href="custom_stylesheet.css"> -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="custom_stylesheet.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </head>
 
-<body>
-  <div class="container">
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md=12">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">Latitude Visualizations</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="index.html">Title</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Visualizations
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="vis1.html">Temperature</a>
-              <a class="dropdown-item" href="vis2.html">Humidity</a>
-              <a class="dropdown-item" href="vis3.html">Cloudiness</a>
-              <a class="dropdown-item" href="vis4.html">Wind Speed</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Visualizations
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="vis1.html">Temperature</a>
+                      <a class="dropdown-item" href="vis2.html">Humidity</a>
+                      <a class="dropdown-item" href="vis3.html">Cloudiness</a>
+                      <a class="dropdown-item" href="vis4.html">Wind Speed</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="comp.html">Comparisons</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="data.html">Data</a>
+                  </li>
+              </ul>
             </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="comp.html">Comparisons</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="data.html">Data</a>
-          </li>
-      </div>
-    </nav>
+          </nav>
 
-    <div class="col-md-8">
-    <div class="jumbotron">
-    <h1>Visualization 2</h1>
-    <div class="col-md-6">
-    <img style='height: 100%; width: 100%; object-fit: contain' src="Resources\assets\images\Fig2.png">
-    </div>
-    <p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."</p>
-  </div>
-  </div>
-  <div class="col-md-4">
-    <div class="jumbotron">
-      <div class="col-md-12">
-        <h3>Visualizations</h3>
-        </div>
-        <div class="col-md-6">
-          <a href="vis1.html">
-           <img style='height: 100%; width: 100%; object-fit: contain' alt="Temp" src="Resources\assets\images\Fig1.png">
-        </a>
-          </div>
-          <div class="col-md-6">
-            <a href="vis2.html">
-             <img style='height: 100%; width: 100%; object-fit: contain' alt="Temp" src="Resources\assets\images\Fig2.png">
-          </a>
-            </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8" style="background-color:lightgray;">
+          <section>
+          <h1>Latitude vs Humidity</h1>
             <div class="col-md-6">
-              <a href="vis3.html">
-               <img style='height: 100%; width: 100%; object-fit: contain' alt="Temp" src="Resources\assets\images\Fig3.png">
-            </a>
-              </div>
-              <div class="col-md-6">
-                <a href="vis4.html">
-                 <img style='height: 100%; width: 100%; object-fit: contain' alt="Temp" src="Resources\assets\images\Fig4.png">
-              </a>
-                </div>
+              <img style='height: 100%; width: 100%; object-fit: contain' src="Resources/assets/images/Fig2.png">
+            </div>
+          <p>
+The above scatter plot is displaying latitude vs humidity for the cities in our dataframe. The points are fairly random but additional analysis may be performed to see if there is any real relationship between the two variables.</p>
+          </section>
+        </div>
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-12">
+            <h3>Visualizations</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6" id="vis">
+            <a href="vis1.html"><img style='height: 100%; width: 100%; object-fit: contain' alt="Temp" src="Resources\assets\images\Fig1.png"></a>
+            </div>
+            <div class="col-md-6" id="focus">
+            <a href="vis2.html"><img style='height: 100%; width: 100%; object-fit: contain' alt="Temp" src="Resources\assets\images\Fig2.png"></a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6" id="vis">
+            <a href="vis3.html"><img style='height: 100%; width: 100%; object-fit: contain' alt="Temp" src="Resources\assets\images\Fig3.png"></a>
+            </div>
+            <div class="col-md-6" id="vis">
+            <a href="vis4.html"><img style='height: 100%; width: 100%; object-fit: contain' alt="Temp" src="Resources\assets\images\Fig4.png"></a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  <div class=""
   </div>
-</body>
+  </div>
+  </body>
 </html>
