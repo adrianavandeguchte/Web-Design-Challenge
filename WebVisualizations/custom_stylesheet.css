@@ -1,0 +1,51 @@
+@media (max-width: 991px) {
+ .navbar-light.bg-light{
+    background-color: teal !important;
+    color: white !important;
+  }
+}
+.navbar {
+  margin-bottom: 25px;
+}
+.navbar-brand {
+  padding-left: 10px;
+  padding-right: 10px;
+  display: block;
+  color: white;
+  background-color: teal !important;
+}
+.navbar-light .navbar-brand{
+  color: white;
+}
+.container#body{
+  background-color: lightgray;
+}
+.col-md-8#summary {
+  background-color: white;
+}
+#main {
+  background-color: lightgray;
+  margin-left: 15px;
+}
+
+#mainh1 {
+  color: #343a40;
+}
+
+#vis {
+  margin-bottom: 25px;
+}
+
+#focus {
+  margin-bottom: 25px;
+  border-style: solid;
+  border-color: yellow;
+  border-width: medium;
+
+}
+#comp {
+  margin-bottom: 25px;
+}
+.h4 {
+  margin-top: 25px;
+}
